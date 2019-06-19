@@ -1,0 +1,19 @@
+{{ attach_library('ldnddev_milestone/ldnddev_milestone') }}
+{%
+    set classes = [
+        'ldnddev-milestone'
+    ]
+%}
+
+{% if content.field_ldnddev_milestone_css.0 %}
+    {% set classes = classes|merge([content.field_ldnddev_milestone_css.0|render|clean_class]) %}
+{% endif %}
+{% if content.field_ldnddev_milestone_grid.0 %}
+    {% set classes = classes|merge([content.field_ldnddev_milestone_grid.0|render]) %}
+{% endif %}
+
+<div {{ attributes.addClass(classes) }}>
+    <div class="ldnddev-milestone__items">
+        {{ content.field_ldnddev_milestone_item }}
+    </div>
+</div>

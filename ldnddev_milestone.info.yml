@@ -1,0 +1,7 @@
+name: ldnddev Milestone Paragraph Bundle
+type: module
+description: A reusable Milestone Paragraph bundle.
+core: 8.x
+package: Paragraphs
+dependencies:
+  - paragraphs

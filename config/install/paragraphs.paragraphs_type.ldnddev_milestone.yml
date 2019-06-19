@@ -1,0 +1,11 @@
+uuid: 53e8c5fc-1c15-4809-bcb9-fbb76cef3b27
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: R6Urmz6t9VJnIo45tcCzIKtr8eRkTuqAWnkCeUS1Eh8
+id: ldnddev_milestone
+label: 'ldnddev Milestone'
+icon_uuid: null
+description: 'This bundle is used to add a milestone number to show project progress.'
+behavior_plugins: {  }

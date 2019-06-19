@@ -1,0 +1,32 @@
+uuid: ed30ae43-e316-483a-a438-0c7add5182fb
+langcode: en
+status: true
+dependencies:
+  module:
+    - options
+    - paragraphs
+_core:
+  default_config_hash: fG23CzjEEJEexD7j4_fNAdaxcB2vyaSee7fhQnelleE
+id: paragraph.field_ldnddev_milestone_grid
+field_name: field_ldnddev_milestone_grid
+entity_type: paragraph
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: '-two -c6x6'
+      label: 'Two Equal Columns - [______][______]'
+    -
+      value: '-three -c4x4x4'
+      label: 'Three Equal Columns - [____][____][____]'
+    -
+      value: '-four -c3x3x3x3'
+      label: 'Four Equal Columns - [___][___][___][___]'
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

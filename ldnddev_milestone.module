@@ -1,0 +1,26 @@
+<?php
+
+/**
+ * @file
+ * ldnddev Milestone Module file.
+ */
+
+/**
+ * Implements hook_theme().
+ */
+function ldnddev_milestone_theme($existing, $type, $theme, $path) {
+  return [
+    'paragraph__ldnddev_milestone' => [
+      'base hook' => 'paragraph',
+    ],
+    'paragraph__ldnddev_milestone_item' => [
+      'base hook' => 'paragraph',
+    ],
+    'field__paragraph__ldnddev_milestone' => [
+      'base hook' => 'paragraph',
+    ],
+    'field__paragraph__ldnddev_milestone_item' => [
+      'base hook' => 'paragraph',
+    ],
+  ];
+}

@@ -1,0 +1,82 @@
+uuid: 60279a2c-47e3-4d34-a39c-4a5e1f08ad59
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_ldnddev_milestone_item
+    - paragraphs.paragraphs_type.ldnddev_milestone
+    - paragraphs.paragraphs_type.ldnddev_milestone_item
+  module:
+    - entity_reference_revisions
+id: paragraph.ldnddev_milestone.field_ldnddev_milestone_item
+field_name: field_ldnddev_milestone_item
+entity_type: paragraph
+bundle: ldnddev_milestone
+label: field_ldnddev_milestone_item
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles:
+      ldnddev_milestone_item: ldnddev_milestone_item
+    target_bundles_drag_drop:
+      ldnddev_accordion:
+        weight: 18
+        enabled: false
+      ldnddev_accordion_item:
+        weight: 19
+        enabled: false
+      ldnddev_add_a_file:
+        weight: 20
+        enabled: false
+      ldnddev_add_a_link:
+        weight: 21
+        enabled: false
+      ldnddev_card:
+        weight: 22
+        enabled: false
+      ldnddev_card_item:
+        weight: 23
+        enabled: false
+      ldnddev_file_or_link:
+        weight: 24
+        enabled: false
+      ldnddev_gallery:
+        weight: 25
+        enabled: false
+      ldnddev_gallery_image:
+        weight: 26
+        enabled: false
+      ldnddev_gallery_video:
+        weight: 27
+        enabled: false
+      ldnddev_hero:
+        weight: 28
+        enabled: false
+      ldnddev_hero_image:
+        weight: 29
+        enabled: false
+      ldnddev_hero_video:
+        weight: 30
+        enabled: false
+      ldnddev_slider:
+        weight: 31
+        enabled: false
+      ldnddev_slider_image:
+        weight: 32
+        enabled: false
+      ldnddev_milestone_item:
+        enabled: true
+        weight: 33
+      ldnddev_slider_video:
+        weight: 33
+        enabled: false
+      ldnddev_milestone:
+        weight: 34
+        enabled: false
+field_type: entity_reference_revisions

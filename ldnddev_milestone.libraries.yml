@@ -1,0 +1,13 @@
+ldnddev_milestone:
+  css:
+    component:
+      assets/css/ldnddev_milestone.css:
+        minified: false
+  js:
+    assets/js/ldnddev_milestone.js:
+      minified: false
+    assets/js/jquery.visible.min.js:
+      minified: true
+  dependencies:
+    - core/jquery
+    - core/drupal

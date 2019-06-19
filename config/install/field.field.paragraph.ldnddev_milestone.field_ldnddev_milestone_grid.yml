@@ -1,0 +1,25 @@
+uuid: 502a396a-ff2b-4104-a813-862b15abe6da
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_ldnddev_milestone_grid
+    - paragraphs.paragraphs_type.ldnddev_milestone
+  module:
+    - options
+_core:
+  default_config_hash: K6SrQJ6YkDVFoRF4TyETIcepyf6qZ5eDH7gEsOq37pE
+id: paragraph.ldnddev_milestone.field_ldnddev_milestone_grid
+field_name: field_ldnddev_milestone_grid
+entity_type: paragraph
+bundle: ldnddev_milestone
+label: 'ldnddev Milestone Grid'
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    value: '-three -c4x4x4'
+default_value_callback: ''
+settings: {  }
+field_type: list_string

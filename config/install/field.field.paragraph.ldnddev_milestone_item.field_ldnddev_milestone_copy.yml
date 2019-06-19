@@ -1,0 +1,19 @@
+uuid: 3b12f10c-8f07-439c-b611-06df9e8128f3
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_ldnddev_milestone_copy
+    - paragraphs.paragraphs_type.ldnddev_milestone_item
+id: paragraph.ldnddev_milestone_item.field_ldnddev_milestone_copy
+field_name: field_ldnddev_milestone_copy
+entity_type: paragraph
+bundle: ldnddev_milestone_item
+label: field_ldnddev_milestone_copy
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

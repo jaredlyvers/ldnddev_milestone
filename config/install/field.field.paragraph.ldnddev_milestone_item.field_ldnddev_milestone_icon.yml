@@ -1,0 +1,38 @@
+uuid: 8785e50a-02ce-420e-b232-e4e4f8899427
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_ldnddev_milestone_icon
+    - paragraphs.paragraphs_type.ldnddev_milestone_item
+  module:
+    - image
+id: paragraph.ldnddev_milestone_item.field_ldnddev_milestone_icon
+field_name: field_ldnddev_milestone_icon
+entity_type: paragraph
+bundle: ldnddev_milestone_item
+label: field_ldnddev_milestone_icon
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_directory: 'assets/imgs/milestone/[date:custom:Y]-[date:custom:m]'
+  file_extensions: png
+  max_filesize: '400 KB'
+  max_resolution: 640x640
+  min_resolution: ''
+  alt_field: true
+  alt_field_required: true
+  title_field: false
+  title_field_required: false
+  default_image:
+    uuid: ''
+    alt: ''
+    title: ''
+    width: null
+    height: null
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: image

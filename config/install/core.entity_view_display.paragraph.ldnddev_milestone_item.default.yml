@@ -1,0 +1,43 @@
+uuid: 52ffa878-0bef-47c3-bb5d-e653b8efccf3
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.ldnddev_milestone_item.field_ldnddev_milestone_copy
+    - field.field.paragraph.ldnddev_milestone_item.field_ldnddev_milestone_icon
+    - field.field.paragraph.ldnddev_milestone_item.field_ldnddev_milestone_number
+    - paragraphs.paragraphs_type.ldnddev_milestone_item
+  module:
+    - image
+id: paragraph.ldnddev_milestone_item.default
+targetEntityType: paragraph
+bundle: ldnddev_milestone_item
+mode: default
+content:
+  field_ldnddev_milestone_copy:
+    weight: 2
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_ldnddev_milestone_icon:
+    weight: 0
+    label: hidden
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_ldnddev_milestone_number:
+    weight: 1
+    label: hidden
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_integer
+    region: content
+hidden: {  }

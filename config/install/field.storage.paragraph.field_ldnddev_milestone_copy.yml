@@ -1,0 +1,23 @@
+uuid: 661f2806-d22f-4407-b805-0ae34af52b0c
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs
+_core:
+  default_config_hash: A5CgOsUsgJ4vxTTjPuximFIsLKWBHqFTifwIluJCsYY
+id: paragraph.field_ldnddev_milestone_copy
+field_name: field_ldnddev_milestone_copy
+entity_type: paragraph
+type: string
+settings:
+  max_length: 255
+  is_ascii: false
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

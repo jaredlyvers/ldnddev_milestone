@@ -1,0 +1,32 @@
+uuid: 85e4ed73-ba11-4a41-8174-30ce768fb5b4
+langcode: en
+status: true
+dependencies:
+  module:
+    - file
+    - image
+    - paragraphs
+_core:
+  default_config_hash: uLz0urvjk4tn_TEfaPbBsCTUaGfeLFUz6nVU-CZRPzY
+id: paragraph.field_ldnddev_milestone_icon
+field_name: field_ldnddev_milestone_icon
+entity_type: paragraph
+type: image
+settings:
+  uri_scheme: public
+  default_image:
+    uuid: ''
+    alt: ''
+    title: ''
+    width: null
+    height: null
+  target_type: file
+  display_field: false
+  display_default: false
+module: image
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

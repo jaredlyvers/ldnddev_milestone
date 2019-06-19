@@ -1,0 +1,9 @@
+uuid: da240fa8-7b89-4bc7-9bf3-ff2a48d8f9db
+langcode: en
+status: true
+dependencies: {  }
+id: ldnddev_milestone_item
+label: 'ldnddev Milestone Item'
+icon_uuid: null
+description: 'This bundle is used to add a Milestone item to the MileStone bundle.'
+behavior_plugins: {  }

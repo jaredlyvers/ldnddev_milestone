@@ -1,0 +1,22 @@
+uuid: 0a7670c6-f4b7-4748-af6d-184de7c93649
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs
+_core:
+  default_config_hash: 1u98zr7k3q4gv05B4PsnKchdEUsty5i7T9nljORkewI
+id: paragraph.field_ldnddev_milestone_number
+field_name: field_ldnddev_milestone_number
+entity_type: paragraph
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

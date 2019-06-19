@@ -1,0 +1,23 @@
+uuid: cbe0762c-2c5a-4d65-8136-4e1f375d899f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_ldnddev_milestone_number
+    - paragraphs.paragraphs_type.ldnddev_milestone_item
+id: paragraph.ldnddev_milestone_item.field_ldnddev_milestone_number
+field_name: field_ldnddev_milestone_number
+entity_type: paragraph
+bundle: ldnddev_milestone_item
+label: field_ldnddev_milestone_number
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

@@ -1,0 +1,52 @@
+uuid: 43880147-49a6-4100-903b-f060063d6a30
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.ldnddev_milestone.field_ldnddev_milestone_css
+    - field.field.paragraph.ldnddev_milestone.field_ldnddev_milestone_grid
+    - field.field.paragraph.ldnddev_milestone.field_ldnddev_milestone_item
+    - paragraphs.paragraphs_type.ldnddev_milestone
+  module:
+    - paragraphs
+id: paragraph.ldnddev_milestone.default
+targetEntityType: paragraph
+bundle: ldnddev_milestone
+mode: default
+content:
+  field_ldnddev_milestone_css:
+    weight: 1
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_ldnddev_milestone_grid:
+    type: options_select
+    weight: 2
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_ldnddev_milestone_item:
+    weight: 0
+    settings:
+      title: Milestone
+      title_plural: Milestones
+      edit_mode: closed
+      closed_mode: summary
+      autocollapse: none
+      closed_mode_threshold: 0
+      add_mode: button
+      form_display_mode: default
+      default_paragraph_type: ldnddev_milestone_item
+      features:
+        duplicate: duplicate
+        collapse_edit_all: collapse_edit_all
+        add_above: '0'
+    third_party_settings: {  }
+    type: paragraphs
+    region: content
+hidden:
+  created: true
+  status: true
