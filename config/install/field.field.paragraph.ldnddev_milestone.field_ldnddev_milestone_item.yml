@@ -12,7 +12,7 @@ id: paragraph.ldnddev_milestone.field_ldnddev_milestone_item
 field_name: field_ldnddev_milestone_item
 entity_type: paragraph
 bundle: ldnddev_milestone
-label: field_ldnddev_milestone_item
+label: 'Milestone Item'
 description: ''
 required: false
 translatable: true
@@ -78,5 +78,11 @@ settings:
         enabled: false
       ldnddev_milestone:
         weight: 34
+        enabled: false
+      ldnddev_rich_text:
+        weight: 36
+        enabled: false
+      ldnddev_section:
+        weight: 37
         enabled: false
 field_type: entity_reference_revisions

@@ -9,7 +9,7 @@ id: paragraph.ldnddev_milestone_item.field_ldnddev_milestone_copy
 field_name: field_ldnddev_milestone_copy
 entity_type: paragraph
 bundle: ldnddev_milestone_item
-label: field_ldnddev_milestone_copy
+label: 'Milestone Copy'
 description: ''
 required: false
 translatable: true

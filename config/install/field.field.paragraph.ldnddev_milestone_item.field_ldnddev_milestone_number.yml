@@ -9,7 +9,7 @@ id: paragraph.ldnddev_milestone_item.field_ldnddev_milestone_number
 field_name: field_ldnddev_milestone_number
 entity_type: paragraph
 bundle: ldnddev_milestone_item
-label: field_ldnddev_milestone_number
+label: 'Milestone Number'
 description: ''
 required: false
 translatable: true

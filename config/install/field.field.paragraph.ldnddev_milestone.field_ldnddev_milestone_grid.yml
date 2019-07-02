@@ -13,8 +13,8 @@ id: paragraph.ldnddev_milestone.field_ldnddev_milestone_grid
 field_name: field_ldnddev_milestone_grid
 entity_type: paragraph
 bundle: ldnddev_milestone
-label: 'ldnddev Milestone Grid'
-description: ''
+label: 'Milestone Grid Layout'
+description: 'The grid options allow you to choose how many items will be in each section.'
 required: true
 translatable: false
 default_value:
